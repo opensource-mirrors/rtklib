@@ -25,5 +25,6 @@ add_library(rtklib ${RTKLIB_SRC} ${RTKLIB_RCV_SRC})
 target_link_libraries(rtklib
     pthread
     ${LIBS}
+    m
 )
 
